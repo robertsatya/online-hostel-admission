@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body{
+	background: #EEE;
+	font-family: Calibri;
+	background-image: url(../img/noisetexture.png);*/
+}
+
+
+
+.header{
+	height: 130px;
+	background: #ACF;
+	border-bottom: #000 solid 1px; 
+}
+
+.logo{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.heading{
+	font-size: 36px;
+	vertical-align: middle;
+	width: 300px;
+	line-height: 130px;
+}
+
+a{
+	text-decoration: none;
+	border: 0;
+}
+
+:focus{
+	outline: none;
+}
+
+a:focus{
+	text-decoration: none;
+	border: 0;
+}
